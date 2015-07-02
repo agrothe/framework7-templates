@@ -1,0 +1,28 @@
+{
+  "components": [
+    {
+      "name": "navbar",
+      "title": "Navbar",
+      "subtype": "nav",
+      "layout": "<div class=\"navbar\">\n    <div class=\"navbar-inner\">\n        <div class=\"left\">\n            <a href=\"#\" class=\"link\">Left Link</a>\n        </div>\n        <div class=\"center\">Center</div>\n        <div class=\"right\">\n            <a href=\"#\" class=\"link\">Right Link</a>\n        </div>\n    </div>\n</div>    "
+    },
+    {
+      "name": "subnavbar",
+      "title": "Sub Navbar",
+      "subtype": "nav",
+      "layout": "<!-- Sub navbar -->\n    <div class=\"subnavbar\">\n        <!-- Sub navbar content, for example tabs buttons -->\n        <div class=\"buttons-row\">\n            <a href=\"#tab1\" class=\"button active\">Tab 1</a>\n            <a href=\"#tab2\" class=\"button\">Tab 2</a>\n            <a href=\"#tab3\" class=\"button\">Tab 3</a>\n        </div>\n    </div>"
+    },
+    {
+      "name": "toolbar",
+      "title": "Toolbar",
+      "subtype": "nav",
+      "layout": "<div class=\"toolbar\">\n    <div class=\"toolbar-inner\">\n        <a href=\"#\" class=\"link\">Link 1</a>\n        <a href=\"#\" class=\"link\">Link 2</a>\n        <a href=\"#\" class=\"link\">Link 3</a>\n    </div>\n</div>"
+    },
+    {
+      "name": "tabbar",
+      "title": "Tab bar",
+      "subtype": "nav",
+      "layout": "<div class=\"toolbar tabbar\">\n    <div class=\"toolbar-inner\">\n        <a href=\"#tab1\" class=\"tab-link active\">\n            <i class=\"icon demo-icon-1\"></i>\n        </a>\n        <a href=\"#tab2\" class=\"tab-link\">\n            <i class=\"icon demo-icon-2\"></i>\n        </a>\n        <a href=\"#tab3\" class=\"tab-link\">\n            <i class=\"icon demo-icon-3\"></i>\n        </a>\n        <a href=\"#tab4\" class=\"tab-link\">\n            <i class=\"icon demo-icon-4\"></i>\n        </a>\n    </div>\n</div>"
+    }
+  ]
+}
