@@ -20,9 +20,55 @@
     },
     {
       "name": "tabbar",
-      "title": "Tab bar",
+      "title": "Tabs",
       "subtype": "nav",
       "layout": "<div class=\"toolbar tabbar\">\n    <div class=\"toolbar-inner\">\n        <a href=\"#tab1\" class=\"tab-link active\">\n            <i class=\"icon demo-icon-1\"></i>\n        </a>\n        <a href=\"#tab2\" class=\"tab-link\">\n            <i class=\"icon demo-icon-2\"></i>\n        </a>\n        <a href=\"#tab3\" class=\"tab-link\">\n            <i class=\"icon demo-icon-3\"></i>\n        </a>\n        <a href=\"#tab4\" class=\"tab-link\">\n            <i class=\"icon demo-icon-4\"></i>\n        </a>\n    </div>\n</div>"
+    },
+    {
+      "name": "searchbar",
+      "title": "Search Bar",
+      "subtype": "general",
+      "layout": "    <!-- Search bar -->\n    <form class=\"searchbar\">\n        <div class=\"searchbar-input\">\n            <input type=\"search\" placeholder=\"Search\">\n            <a href=\"#\" class=\"searchbar-clear\"></a>\n        </div>\n        <a href=\"#\" class=\"searchbar-cancel\">Cancel</a>\n    </form>\n    \n    <!-- Search bar overlay-->\n    <div class=\"searchbar-overlay\"></div>\n    \n    <!-- Page content -->\n    <div class=\"page-content\">\n        <div class=\"content-block searchbar-not-found\">\n                Nothing found\n        </div>\n \n        <div class=\"list-block list-block-search searchbar-found\">\n            <ul>\n                ... list view items ...\n            </ul>\n        </div>\n    </div>"
+    },
+    {
+      "name": "sidepanel",
+      "title": "Side Panel",
+      "subtype": "general",
+      "layout": "<!-- First, we need to add Panel's overlay that will overlays app while panel is opened -->\n    <div class=\"panel-overlay\"></div>\n \n    <!-- Left panel -->\n    <div class=\"panel panel-left\">\n        ... panel content goes here ...\n    </div>"
+    },
+    {
+      "name": "pagecontent",
+      "title": "Page Content",
+      "subtype": "content",
+      "layout": "<div class=\"page-content\"><p class=\"insert-content\"></p></div>"
+    },
+    {
+      "name": "contentblock",
+      "title": "Content Block",
+      "subtype": "content",
+      "layout": "<div class=\"content-block\"><p class=\"insert-content\"></p></div>",
+      "modifiers": [
+        {
+          "type": "class",
+          "value": "inset"
+        },
+        {
+          "type": "class",
+          "value": "tablet-inset"
+        }
+      ]
+    },
+    {
+      "name": "contentblockinner",
+      "title": "Content Block - Inner",
+      "subtype": "content",
+      "layout": "<div class=\"content-block-inner\"><p class=\"insert-content\"></p></div>"
+    },
+    {
+      "name": "contentblocktitle",
+      "title": "Content Block - Title",
+      "subtype": "content",
+      "layout": "<div class=\"content-block-title insert-content\"></div>"
     }
   ]
 }
