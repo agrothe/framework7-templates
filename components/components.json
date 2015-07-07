@@ -1,6 +1,12 @@
 {
   "components": [
     {
+      "name": "app",
+      "title": "App",
+      "subtype": null,
+      "layout": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">\n    <title></title>\n    \n    </head>\n  <body class=\"\">\n\n  \n    \n\n<script type=\"text/javascript\">\n\n</script>\n  </body>\n</html>"
+    },
+    {
       "name": "navbar",
       "title": "Navbar",
       "subtype": "nav",
