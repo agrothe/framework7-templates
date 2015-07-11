@@ -46,13 +46,13 @@
       "name": "pagecontent",
       "title": "Page Content",
       "subtype": "content",
-      "layout": "<div class=\"page-content\"><p class=\"insert-content\"></p></div>"
+      "layout": "<div class=\"page-content\"><div class=\"insert-content\"></div></div>"
     },
     {
       "name": "contentblock",
       "title": "Content Block",
       "subtype": "content",
-      "layout": "<div class=\"content-block\"><p class=\"insert-content\"></p></div>",
+      "layout": "<div class=\"content-block\"><div class=\"insert-content\"></div></div>",
       "modifiers": [
         {
           "type": "class",
@@ -68,7 +68,7 @@
       "name": "contentblockinner",
       "title": "Content Block - Inner",
       "subtype": "content",
-      "layout": "<div class=\"content-block-inner\"><p class=\"insert-content\"></p></div>"
+      "layout": "<div class=\"content-block-inner\"><div class=\"insert-content\"></div></div>"
     },
     {
       "name": "contentblocktitle",
