@@ -8,6 +8,26 @@
         "type": "insert",
 		"value": "body"
       }],
+	  "resources": [
+		{
+			"id": "f7js",
+			"order": 0,
+			"type": "script",
+			"value": "PHNjcmlwdCBzcmM9ImpzL2ZyYW1ld29yazcubWluLmpzIj48L3NjcmlwdD4="
+		},
+		{
+			"id": "f7css",
+			"order": 1,
+			"type": "css",
+			"value": "PGxpbmsgaHJlZj0iY3NzL2ZyYW1ld29yazcubWluLmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPg=="
+		},
+		{
+			"id": "f7themecss",
+			"order": 2,
+			"type": "css",
+			"value": "PGxpbmsgaHJlZj0iY3NzL2ZyYW1ld29yazcudGhlbWVzLm1pbi5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4="
+		}
+	  ],
       "layout": "<div class=\"\"><div class=\"insert-content\"></div></div>"
     },
     {
