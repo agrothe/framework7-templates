@@ -4,127 +4,178 @@
       "name": "app",
       "title": "App",
       "subtype": null,
-      "selectors": [{
-        "type": "insert",
-		"value": "body"
-      }],
-	  "resources": [
-		{
-			"id": "f7js",
-			"order": 0,
-			"type": "script",
-			"value": "PHNjcmlwdCBzcmM9ImpzL2ZyYW1ld29yazcubWluLmpzIj48L3NjcmlwdD4="
-		},
-		{
-			"id": "f7css",
-			"order": 1,
-			"type": "css",
-			"value": "PGxpbmsgaHJlZj0iY3NzL2ZyYW1ld29yazcubWluLmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPg=="
-		},
-		{
-			"id": "f7themecss",
-			"order": 2,
-			"type": "css",
-			"value": "PGxpbmsgaHJlZj0iY3NzL2ZyYW1ld29yazcudGhlbWVzLm1pbi5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4="
-		}
-	  ],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": "body"
+        }
+      ],
+      "resources": [
+        {
+          "id": "f7js",
+          "order": 0,
+          "type": "script",
+          "value": "PHNjcmlwdCBzcmM9ImpzL2ZyYW1ld29yazcubWluLmpzIj48L3NjcmlwdD4="
+        },
+        {
+          "id": "f7css",
+          "order": 1,
+          "type": "css",
+          "value": "PGxpbmsgaHJlZj0iY3NzL2ZyYW1ld29yazcubWluLmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPg=="
+        },
+        {
+          "id": "f7themecss",
+          "order": 2,
+          "type": "css",
+          "value": "PGxpbmsgaHJlZj0iY3NzL2ZyYW1ld29yazcudGhlbWVzLm1pbi5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4="
+        }
+      ],
       "layout": "<div class=\"\"><div class=\"insert-content\"></div></div>"
+    },
+    {
+      "name": "page",
+      "title": "Page",
+      "subtype": null,
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".pages"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": "mainviewclass",
+          "type": "class",
+          "value": "main-view"
+        },
+        {
+          "id": "leftviewclass",
+          "type": "class",
+          "value": "left-view"
+        },
+        {
+          "id": "rightviewclass",
+          "type": "class",
+          "value": "right-view"
+        }
+      ],
+      "layout": "<div class=\"view\"><div class=\"pages\"></div></div>"
     },
     {
       "name": "navbar",
       "title": "Navbar",
       "subtype": "nav",
-      "selectors": [{
-        "type": "insert",
-		"value": ".link"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".link"
+        }
+      ],
       "layout": "<div class=\"navbar\">\n    <div class=\"navbar-inner\">\n        <div class=\"left\">\n            <a href=\"#\" class=\"link\">Left Link</a>\n        </div>\n        <div class=\"center\">Center</div>\n        <div class=\"right\">\n            <a href=\"#\" class=\"link\">Right Link</a>\n        </div>\n    </div>\n</div>    "
     },
     {
       "name": "subnavbar",
       "title": "Sub Navbar",
       "subtype": "nav",
-      "selectors": [{
-        "type": "insert",
-		"value": ".buttons-row"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".buttons-row"
+        }
+      ],
       "layout": "<!-- Sub navbar -->\n    <div class=\"subnavbar\">\n        <!-- Sub navbar content, for example tabs buttons -->\n        <div class=\"buttons-row\">\n            <a href=\"#tab1\" class=\"button active\">Tab 1</a>\n            <a href=\"#tab2\" class=\"button\">Tab 2</a>\n            <a href=\"#tab3\" class=\"button\">Tab 3</a>\n        </div>\n    </div>"
     },
     {
       "name": "toolbar",
       "title": "Toolbar",
       "subtype": "nav",
-      "selectors": [{
-        "type": "insert",
-		"value": ".link"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".link"
+        }
+      ],
       "layout": "<div class=\"toolbar\">\n    <div class=\"toolbar-inner\">\n        <a href=\"#\" class=\"link\">Link 1</a>\n        <a href=\"#\" class=\"link\">Link 2</a>\n        <a href=\"#\" class=\"link\">Link 3</a>\n    </div>\n</div>"
     },
     {
       "name": "tabbar",
       "title": "Tabs",
       "subtype": "nav",
-      "selectors": [{
-        "type": "insert",
-		"value": ".toolbar-inner"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".toolbar-inner"
+        }
+      ],
       "layout": "<div class=\"toolbar tabbar\">\n    <div class=\"toolbar-inner\">\n        <a href=\"#tab1\" class=\"tab-link active\">\n            <i class=\"icon demo-icon-1\"></i>\n        </a>\n        <a href=\"#tab2\" class=\"tab-link\">\n            <i class=\"icon demo-icon-2\"></i>\n        </a>\n        <a href=\"#tab3\" class=\"tab-link\">\n            <i class=\"icon demo-icon-3\"></i>\n        </a>\n        <a href=\"#tab4\" class=\"tab-link\">\n            <i class=\"icon demo-icon-4\"></i>\n        </a>\n    </div>\n</div>"
     },
     {
       "name": "searchbar",
       "title": "Search Bar",
       "subtype": "general",
-      "selectors": [{
-        "type": "insert",
-		"value": ".list-block-search"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".list-block-search"
+        }
+      ],
       "layout": "    <!-- Search bar -->\n    <form class=\"searchbar\">\n        <div class=\"searchbar-input\">\n            <input type=\"search\" placeholder=\"Search\">\n            <a href=\"#\" class=\"searchbar-clear\"></a>\n        </div>\n        <a href=\"#\" class=\"searchbar-cancel\">Cancel</a>\n    </form>\n    \n    <!-- Search bar overlay-->\n    <div class=\"searchbar-overlay\"></div>\n    \n    <!-- Page content -->\n    <div class=\"page-content\">\n        <div class=\"content-block searchbar-not-found\">\n                Nothing found\n        </div>\n \n        <div class=\"list-block list-block-search searchbar-found\">\n            <ul>\n                ... list view items ...\n            </ul>\n        </div>\n    </div>"
     },
     {
       "name": "sidepanel",
       "title": "Side Panel - Left",
       "subtype": "general",
-      "selectors": [{
-        "type": "insert",
-		"value": ".panel-left"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".panel-left"
+        }
+      ],
       "layout": "<!-- First, we need to add Panel's overlay that will overlays app while panel is opened -->\n    <div class=\"panel-overlay\"></div>\n \n    <!-- Left panel -->\n    <div class=\"panel panel-left\">\n        ... panel content goes here ...\n    </div>"
     },
     {
       "name": "sidepanel",
       "title": "Side Panel - Right",
       "subtype": "general",
-      "selectors": [{
-        "type": "insert",
-		"value":  ".panel-right"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": ".panel-right"
+        }
+      ],
       "layout": "<!-- First, we need to add Panel's overlay that will overlays app while panel is opened -->\n    <div class=\"panel-overlay\"></div>\n \n    <!-- right panel -->\n    <div class=\"panel panel-right\">\n        ... panel content goes here ...\n    </div>"
     },
     {
       "name": "pagecontent",
       "title": "Page Content",
       "subtype": "content",
-      "selectors": [{
-        "type": "insert",
-		"value":  "self"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": "self"
+        }
+      ],
       "layout": "<div class=\"page-content\"></div>"
     },
     {
       "name": "contentblock",
       "title": "Content Block",
       "subtype": "content",
-      "selectors": [{
-        "type": "insert",
-		"value": "self"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": "self"
+        }
+      ],
       "layout": "<div class=\"content-block\"></div>",
       "modifiers": [
         {
+          "id": "classinset",
           "type": "class",
           "value": "inset"
         },
         {
+          "id": "classtabletinset",
           "type": "class",
           "value": "tablet-inset"
         }
@@ -134,20 +185,24 @@
       "name": "contentblockinner",
       "title": "Content Block - Inner",
       "subtype": "content",
-      "selectors": [{
-        "type": "insert",
-		"value": "self"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": "self"
+        }
+      ],
       "layout": "<div class=\"content-block-inner\"></div>"
     },
     {
       "name": "contentblocktitle",
       "title": "Content Block - Title",
       "subtype": "content",
-      "selectors": [{
-        "type": "insert",
-		"value": "self"
-      }],
+      "selectors": [
+        {
+          "type": "insert",
+          "value": "self"
+        }
+      ],
       "layout": "<div class=\"content-block-title\"></div>"
     }
   ]
